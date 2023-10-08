@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
 import moment from 'moment';
+import { Link } from "react-router-dom";
 
 const Service = ({ service }) => {
-    const { image, name, game, price, date, description } = service;
+    const { image, name, game, price, date, description, id } = service;
     return (
         <div className="card card-compact bg-base-100 shadow-xl">
             <figure><img className="h-[300px] w-full" src={image} alt={name} /></figure>
@@ -15,7 +16,7 @@ const Service = ({ service }) => {
                 </div>
                 <p className="text-gray-400">{description}</p>
                 <div className="w-full">
-                    <button className="w-full bg-gray-300 text-black hover:bg-neutral hover:text-white rounded-r-lg btn">show Details..</button>
+                    <Link to={`/serviceDetails/${id}`}><button className="w-full bg-gray-300 text-black hover:bg-neutral hover:text-white rounded-r-lg btn">show Details..</button></Link>
                 </div>
             </div>
         </div>
