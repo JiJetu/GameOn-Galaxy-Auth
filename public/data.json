@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "GameFest 2023",
+        "location": "San Francisco, CA",
+        "date": "2023-06-25",
+        "description": "GameFest 2023 is the ultimate gaming celebration, featuring the latest video games, VR experiences, cosplay contests, and more.",
+        "price": 45.0
+    },
+    {
+        "id": 2,
+        "name": "GamerCon 2023",
+        "location": "Seattle, WA",
+        "date": "2023-08-12",
+        "description": "GamerCon 2023 is your gateway to the gaming universe. Explore new releases, meet industry experts, and compete in epic esports tournaments.",
+        "price": 55.0
+    },
+    {
+        "id": 3,
+        "name": "RetroGame Expo 2023",
+        "location": "Austin, TX",
+        "date": "2023-10-07",
+        "description": "Step back in time at RetroGame Expo 2023. Discover classic arcade games, vintage consoles, and retro gaming collectibles.",
+        "price": 30.0
+    },
+    {
+        "id": 4,
+        "name": "MegaCon Gaming Edition 2023",
+        "location": "Orlando, FL",
+        "date": "2023-11-18",
+        "description": "MegaCon Gaming Edition 2023 combines the best of pop culture with gaming. Meet celebrities, play tabletop games, and shop for geeky merchandise.",
+        "price": 65.0
+    },
+    {
+        "id": 5,
+        "name": "IndieGame Expo 2023",
+        "location": "Boston, MA",
+        "date": "2023-12-09",
+        "description": "IndieGame Expo 2023 celebrates indie game developers. Play unique indie titles, attend developer panels, and support the indie gaming community.",
+        "price": 25.0
+    },
+    {
+        "id": 6,
+        "name": "FantasyCon 2023",
+        "location": "Las Vegas, NV",
+        "date": "2023-12-30",
+        "description": "FantasyCon 2023 is a magical journey into the world of fantasy gaming. Experience LARPing, tabletop RPGs, and immersive fantasy realms.",
+        "price": 50.0
+    }
+]
