@@ -6,12 +6,13 @@ import Services from "./services/Services";
 
 const Home = () => {
     const services = useLoaderData();
-    console.log(services);
+
+
     return (
         <div>
             <Navbar></Navbar>
             <Banner></Banner>
-            <Services></Services>
+            <Services services={services}></Services>
             <Footer></Footer>
         </div>
     );

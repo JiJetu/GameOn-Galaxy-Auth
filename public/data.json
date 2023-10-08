@@ -1,50 +1,56 @@
 [
     {
         "id": 1,
-        "name": "GameFest 2023",
-        "location": "San Francisco, CA",
-        "date": "2023-06-25",
-        "description": "GameFest 2023 is the ultimate gaming celebration, featuring the latest video games, VR experiences, cosplay contests, and more.",
-        "price": 45.0
+        "name": "Sniper Showdown Tournament",
+        "game": "Sniper Elite 4",
+        "date": "2024-02-15",
+        "description": "Test your sniper skills in this intense Sniper Elite 4 tournament. Precision and stealth are your keys to victory.",
+        "price": 10.00,
+        "image": "https://i.ibb.co/r4jdk4t/1000-F-136969616-Kza-Pjyb-Rf-Ya7-VUl-Xvxpw-Aun0w-ADpaa-Vk.jpg"
     },
     {
         "id": 2,
-        "name": "GamerCon 2023",
-        "location": "Seattle, WA",
-        "date": "2023-08-12",
-        "description": "GamerCon 2023 is your gateway to the gaming universe. Explore new releases, meet industry experts, and compete in epic esports tournaments.",
-        "price": 55.0
+        "name": "PC Master Race Clash",
+        "game": "Various PC Games",
+        "date": "2024-01-10",
+        "description": "A celebration of PC gaming with tournaments in popular PC titles, overclocking competitions, and hardware showcases.",
+        "price": 35.00,
+        "image": "https://i.ibb.co/Ypr1R5G/1000-F-595987407-wdfp-Xs-GCWq-Qu-Mrl2c-Rw-U9x-W67-YNNN5dm.jpg"
     },
     {
         "id": 3,
-        "name": "RetroGame Expo 2023",
-        "location": "Austin, TX",
-        "date": "2023-10-07",
-        "description": "Step back in time at RetroGame Expo 2023. Discover classic arcade games, vintage consoles, and retro gaming collectibles.",
-        "price": 30.0
+        "name": "Speed Racers Grand Prix",
+        "game": "Gran Turismo 7",
+        "date": "2024-01-01",
+        "description": "Compete in high-speed races in Gran Turismo 7 and claim the title of Speed Racers Grand Prix champion.",
+        "price": 25.00,
+        "image": "https://i.ibb.co/QJCr5D7/1000-F-564051919-EIy-Aavz-J1p-US9cp-Wyvy-WXTq4yof1-LEKF.jpg"
     },
     {
         "id": 4,
-        "name": "MegaCon Gaming Edition 2023",
-        "location": "Orlando, FL",
-        "date": "2023-11-18",
-        "description": "MegaCon Gaming Edition 2023 combines the best of pop culture with gaming. Meet celebrities, play tabletop games, and shop for geeky merchandise.",
-        "price": 65.0
+        "name": "IndieGame Expo 2024",
+        "game": "Various Indie Games",
+        "date": "2024-02-09",
+        "description": "IndieGame Expo 2024 celebrates indie game developers. Play unique indie titles, attend developer panels, and support the indie gaming community.",
+        "price": 25.00,
+        "image": "https://i.ibb.co/6tQGM5X/7169-ZDid-Fc-L-SY425.jpg"
     },
     {
         "id": 5,
-        "name": "IndieGame Expo 2023",
-        "location": "Boston, MA",
-        "date": "2023-12-09",
-        "description": "IndieGame Expo 2023 celebrates indie game developers. Play unique indie titles, attend developer panels, and support the indie gaming community.",
-        "price": 25.0
+        "name": "FantasyCon 2024",
+        "game": "Various Fantasy Games",
+        "date": "2024-02-30",
+        "description": "FantasyCon 2024 is a magical journey into the world of fantasy gaming. Experience LARPing, tabletop RPGs, and immersive fantasy realms.",
+        "price": 50.00,
+        "image": "https://i.ibb.co/cLNRDhJ/ff16-br-1667233202495.jpg"
     },
     {
         "id": 6,
-        "name": "FantasyCon 2023",
-        "location": "Las Vegas, NV",
-        "date": "2023-12-30",
-        "description": "FantasyCon 2023 is a magical journey into the world of fantasy gaming. Experience LARPing, tabletop RPGs, and immersive fantasy realms.",
-        "price": 50.0
+        "name": "Mobile Gaming Clash",
+        "game": "Various Mobile Games",
+        "date": "2024-02-15",
+        "description": "Compete in mobile gaming tournaments featuring popular titles like PUBG Mobile, Call of Duty: Mobile, and Clash Royale.",
+        "price": 20.00,
+        "image": "https://i.ibb.co/ZgsnhhD/Most-Popular-Mobile-Games-You-Must-Play-In-2020.jpg"
     }
 ]
