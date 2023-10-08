@@ -7,7 +7,7 @@ const SingleDetails = ({ singleDetail }) => {
 
 
     return (
-        <div className="container mx-auto flex gap-5 h-screen">
+        <div className="container mx-auto md:flex gap-5 h-screen">
             <div className="w-4/5 h-3/4">
                 <img className="h-full w-full" src={image} alt="" />
                 <div>
@@ -15,9 +15,13 @@ const SingleDetails = ({ singleDetail }) => {
                     <p className="text-gray-400">{longDescription}</p>
                 </div>
             </div>
-            <div>
-                <h2 className="text-2xl font-semibold text-yellow-400">{name}</h2>
-                <p className="text-base flex justify-end">Enroal: {moment().format("YYYY-M-DD")} to {date}</p>
+            <div className="md:mt-36">
+                <div className="text-center space-y-6">
+                    <h2 className="text-2xl font-semibold text-yellow-400">{name}</h2>
+                    <p className="text-lg"><span className="font-semibold">Going On:</span>  {moment().format("YYYY-M-DD")} to {date}</p>
+                    <p className="text-base">Participate with in : <span className="text-lg font-semibold text-yellow-500">$ {price}</span></p>
+                    <button className="btn bg-gray-300 text-black hover:bg-neutral hover:text-white rounded-r-lg">Enroll Now</button>
+                </div>
             </div>
         </div>
     );

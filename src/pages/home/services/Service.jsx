@@ -12,7 +12,7 @@ const Service = ({ service }) => {
                 <h4 className="text-lg font-medium">{game}</h4>
                 <div className="flex justify-between">
                     <p className="text-base">$ {price}</p>
-                    <p className="text-base flex justify-end">Last-date: {moment().format("YYYY-M-DD")} to {date}</p>
+                    <p className="text-base flex justify-end">Last-date: {date}</p>
                 </div>
                 <p className="text-gray-400">{description}</p>
                 <div className="w-full">
