@@ -4,22 +4,22 @@ import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 
 const Navbar = () => {
-    const {user, logOut} = useContext(AuthContext);
+    const { user, logOut } = useContext(AuthContext);
 
     const handleSignOut = () => {
         logOut()
-        .then(result => {
-            console.log(result)
-        })
-        .catch(error => {
-            console.error(error)
-        })
+            .then(result => {
+                console.log(result.user)
+            })
+            .catch(error => {
+                console.error(error)
+            })
     }
 
     const navLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
-        <li><NavLink to="/services">Services</NavLink></li>
+        <li><NavLink to="/Profile">Profile</NavLink></li>
     </>
 
     return (
@@ -42,17 +42,27 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <label tabIndex={0} className="btn btn-ghost btn-circle avatar mr-3">
-                        <div className="w-10 rounded-full">
-                            <img src={userDefaultPicture} />
-                        </div>
-                    </label>
                     {
-                        user ? 
-                        <button onClick={handleSignOut} className="btn">SignOut</button> 
-                        : <Link to='/login'>
-                        <button className="btn">LogIn</button>
-                    </Link>
+                        user ?
+                            <>
+                                <label tabIndex={0} className="btn btn-ghost btn-circle avatar mr-3">
+                                    <div className="w-10 rounded-full">
+                                        <img src={user.photoURL} />
+                                    </div>
+                                </label>
+                                <button onClick={handleSignOut} className="btn">SignOut</button>
+                            </>
+
+                            : <>
+                                <label tabIndex={0} className="btn btn-ghost btn-circle avatar mr-3">
+                                    <div className="w-10 rounded-full">
+                                        <img src={userDefaultPicture} />
+                                    </div>
+                                </label>
+                                <Link to='/login'>
+                                    <button className="btn">LogIn</button>
+                                </Link>
+                            </>
                     }
                 </div>
             </div>
