@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
-import moment from 'moment';
 import { Link } from "react-router-dom";
+
 
 const Service = ({ service }) => {
     const { image, name, game, price, date, description, id } = service;
@@ -17,7 +17,7 @@ const Service = ({ service }) => {
                 <p className="text-gray-400">{description}</p>
                 <div className="w-full">
                     <Link to={`/serviceDetails/${id}`}><button className="w-full bg-gray-300 text-black hover:bg-neutral hover:text-white rounded-r-lg btn">show Details..</button></Link>
-                </div>
+                </div>        
             </div>
         </div>
     );

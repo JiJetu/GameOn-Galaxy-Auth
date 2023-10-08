@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../../pages/navbar/Navbar";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 
 const LogIn = () => {
-    const {signIn} = useContext(AuthContext);
+    const { signIn, googleSignIn } = useContext(AuthContext);
+    const location = useLocation();
+    const navigate = useNavigate()
 
     const handleLogin = e => {
         e.preventDefault();
@@ -13,11 +15,24 @@ const LogIn = () => {
         const password = form.get("password")
 
         signIn(email, password)
+            .then((result) => {
+                console.log(result);
+
+                navigate(location?.state ? location.state : '/')
+            })
+            .catch((err) => {
+                console.error(err)
+            });
+    }
+
+    const handleGoogleSignIn = () => {
+        googleSignIn()
         .then((result) => {
-            console.log(result);
-        })
-        .catch((err) => {
-            console.error(err)
+            console.log(result.user)
+
+            navigate(location?.state ? location.state : '/')
+        }).catch((err) => {
+            console.error(err);
         });
     }
 
@@ -51,6 +66,9 @@ const LogIn = () => {
                             </div>
                         </form>
                         <p className="text-center">New Here? <Link to='/register' className="btn btn-link">Register</Link> </p>
+                        <div onClick={handleGoogleSignIn} className="form-control my-6 px-5">
+                            <button className="btn bg-base-300 text-black hover:bg-neutral hover:text-white rounded-r-l">Google</button>
+                        </div>
                     </div>
                 </div>
             </div>
