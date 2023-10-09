@@ -2,6 +2,9 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const LogIn = () => {
     const { signIn, googleSignIn } = useContext(AuthContext);
     const location = useLocation();
@@ -15,24 +18,24 @@ const LogIn = () => {
 
         signIn(email, password)
             .then((result) => {
-                console.log(result);
+                toast("LogIn successfully");
 
                 navigate(location?.state ? location.state : '/')
             })
             .catch((err) => {
-                console.error(err)
+                toast("Invalid password")
             });
     }
 
     const handleGoogleSignIn = () => {
         googleSignIn()
-        .then((result) => {
-            console.log(result.user)
+            .then((result) => {
+                toast("LogIn successfully");
 
-            navigate(location?.state ? location.state : '/')
-        }).catch((err) => {
-            console.error(err);
-        });
+                navigate(location?.state ? location.state : '/')
+            }).catch((err) => {
+                toast(err);
+            });
     }
 
     return (
@@ -42,6 +45,7 @@ const LogIn = () => {
                     <div className="text-center">
                         <h1 className="text-5xl font-bold">LogIn now!</h1>
                     </div>
+                    <ToastContainer />
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form onSubmit={handleLogin} className="card-body">
                             <div className="form-control">

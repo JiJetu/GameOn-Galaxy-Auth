@@ -1,62 +1,92 @@
-[
-    {
-        "id": 1,
-        "name": "Sniper Showdown Tournament",
-        "game": "Sniper Elite 4",
-        "date": "2024-02-15",
-        "description": "Test your sniper skills in this intense Sniper Elite 4 tournament. Precision and stealth are your keys to victory.",
-        "longDescription": "Test your sniper skills in this intense Sniper Elite 4 tournament. Taking place on February 15, 2024, this event promises a day filled with precision shooting and stealth tactics. Assemble your team or go solo and face off against some of the best snipers in the gaming world. Whether you're a seasoned marksman or a newcomer to the Sniper Elite series, this tournament offers an exciting opportunity to showcase your skills. The battlefield is set, and victory depends on your ability to make the perfect shot.",
-        "price": 10.00,
-        "image": "https://i.ibb.co/r4jdk4t/1000-F-136969616-Kza-Pjyb-Rf-Ya7-VUl-Xvxpw-Aun0w-ADpaa-Vk.jpg"
-    },
-    {
-        "id": 2,
-        "name": "PC Master Race Clash",
-        "game": "Various PC Games",
-        "date": "2024-01-10",
-        "description": "A celebration of PC gaming with tournaments in popular PC titles, overclocking competitions, and hardware showcases.",
-        "longDescription": "On January 10, 2024, gaming enthusiasts unite for the PC Master Race Clash. This event is a grand celebration of PC gaming culture, featuring tournaments in various popular PC titles, overclocking competitions, and hardware showcases. Dive deep into the world of high-performance gaming, where cutting-edge technology and unmatched gaming experiences await. Join fellow PC gamers in epic battles and witness the incredible power of gaming rigs pushed to their limits.",
-        "price": 35.00,
-        "image": "https://i.ibb.co/Ypr1R5G/1000-F-595987407-wdfp-Xs-GCWq-Qu-Mrl2c-Rw-U9x-W67-YNNN5dm.jpg"
-    },
-    {
-        "id": 3,
-        "name": "Speed Racers Grand Prix",
-        "game": "Gran Turismo 7",
-        "date": "2024-01-01",
-        "description": "Compete in high-speed races in Gran Turismo 7 and claim the title of Speed Racers Grand Prix champion.",
-        "longDescription": "Get ready to burn rubber on January 1, 2024, at the Speed Racers Grand Prix. Compete in high-speed races in Gran Turismo 7, aiming to claim the title of Speed Racers Grand Prix champion. Experience the thrill of intense racing, as you navigate challenging tracks and vie for supremacy. Only the fastest and most skilled drivers will emerge victorious in this heart-pounding competition.",
-        "price": 25.00,
-        "image": "https://i.ibb.co/QJCr5D7/1000-F-564051919-EIy-Aavz-J1p-US9cp-Wyvy-WXTq4yof1-LEKF.jpg"
-    },
-    {
-        "id": 4,
-        "name": "IndieGame Expo 2024",
-        "game": "Various Indie Games",
-        "date": "2024-02-09",
-        "description": "IndieGame Expo 2024 celebrates indie game developers. Play unique indie titles, attend developer panels, and support the indie gaming community.",
-        "longDescription": "IndieGame Expo 2024, happening on February 9, 2024, is a tribute to indie game developers and their creative spirit. Immerse yourself in the world of unique indie titles, attend enlightening developer panels, and show your support for the indie gaming community. Discover hidden gems, interact with passionate creators, and be part of the thriving indie gaming ecosystem. This event is a testament to the innovation and diversity of indie games.",
-        "price": 25.00,
-        "image": "https://i.ibb.co/6tQGM5X/7169-ZDid-Fc-L-SY425.jpg"
-    },
-    {
-        "id": 5,
-        "name": "FantasyCon 2024",
-        "game": "Various Fantasy Games",
-        "date": "2024-02-30",
-        "description": "FantasyCon 2024 is a magical journey into the world of fantasy gaming. Experience LARPing, tabletop RPGs, and immersive fantasy realms.",
-        "longDescription": "Step into the realm of fantasy gaming at FantasyCon 2024, even if it's on the mythical date of February 30, 2024. Embark on a magical journey filled with LARPing, tabletop RPGs, and immersive fantasy realms. Unleash your inner hero or adventurer, explore enchanted landscapes, and forge epic tales in a world where imagination knows no bounds. FantasyCon 2024 promises an unforgettable adventure for fantasy enthusiasts.",
-        "price": 50.00,
-        "image": "https://i.ibb.co/cLNRDhJ/ff16-br-1667233202495.jpg"
-    },
-    {
-        "id": 6,
-        "name": "Mobile Gaming Clash",
-        "game": "Various Mobile Games",
-        "date": "2024-02-15",
-        "description": "Compete in mobile gaming tournaments featuring popular titles like PUBG Mobile, Call of Duty: Mobile, and Clash Royale.",
-        "longDescription": "On February 15, 2024, the Mobile Gaming Clash brings mobile gamers together for intense tournaments featuring popular titles like PUBG Mobile, Call of Duty: Mobile, and Clash Royale. Show off your skills, compete against fellow mobile gamers, and prove your prowess in the fast-paced world of mobile gaming. It's time to claim victory on the small screen!",
-        "price": 20.00,
-        "image": "https://i.ibb.co/ZgsnhhD/Most-Popular-Mobile-Games-You-Must-Play-In-2020.jpg"
-    }
-]
+{
+    "data" : [
+        {
+            "id": 1,
+            "name": "Sniper Showdown Tournament",
+            "game": "Sniper Elite 4",
+            "date": "2024-02-15",
+            "description": "Test your sniper skills in this intense Sniper Elite 4 tournament. Precision and stealth are your keys to victory.",
+            "longDescription": "Test your sniper skills in this intense Sniper Elite 4 tournament. Taking place on February 15, 2024, this event promises a day filled with precision shooting and stealth tactics. Assemble your team or go solo and face off against some of the best snipers in the gaming world. Whether you're a seasoned marksman or a newcomer to the Sniper Elite series, this tournament offers an exciting opportunity to showcase your skills. The battlefield is set, and victory depends on your ability to make the perfect shot.",
+            "price": 10.00,
+            "image": "https://i.ibb.co/r4jdk4t/1000-F-136969616-Kza-Pjyb-Rf-Ya7-VUl-Xvxpw-Aun0w-ADpaa-Vk.jpg"
+        },
+        {
+            "id": 2,
+            "name": "PC Master Race Clash",
+            "game": "Various PC Games",
+            "date": "2024-01-10",
+            "description": "A celebration of PC gaming with tournaments in popular PC titles, overclocking competitions, and hardware showcases.",
+            "longDescription": "On January 10, 2024, gaming enthusiasts unite for the PC Master Race Clash. This event is a grand celebration of PC gaming culture, featuring tournaments in various popular PC titles, overclocking competitions, and hardware showcases. Dive deep into the world of high-performance gaming, where cutting-edge technology and unmatched gaming experiences await. Join fellow PC gamers in epic battles and witness the incredible power of gaming rigs pushed to their limits.",
+            "price": 35.00,
+            "image": "https://i.ibb.co/Ypr1R5G/1000-F-595987407-wdfp-Xs-GCWq-Qu-Mrl2c-Rw-U9x-W67-YNNN5dm.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Speed Racers Grand Prix",
+            "game": "Gran Turismo 7",
+            "date": "2024-01-01",
+            "description": "Compete in high-speed races in Gran Turismo 7 and claim the title of Speed Racers Grand Prix champion.",
+            "longDescription": "Get ready to burn rubber on January 1, 2024, at the Speed Racers Grand Prix. Compete in high-speed races in Gran Turismo 7, aiming to claim the title of Speed Racers Grand Prix champion. Experience the thrill of intense racing, as you navigate challenging tracks and vie for supremacy. Only the fastest and most skilled drivers will emerge victorious in this heart-pounding competition.",
+            "price": 25.00,
+            "image": "https://i.ibb.co/QJCr5D7/1000-F-564051919-EIy-Aavz-J1p-US9cp-Wyvy-WXTq4yof1-LEKF.jpg"
+        },
+        {
+            "id": 4,
+            "name": "IndieGame Expo 2024",
+            "game": "Various Indie Games",
+            "date": "2024-02-09",
+            "description": "IndieGame Expo 2024 celebrates indie game developers. Play unique indie titles, attend developer panels, and support the indie gaming community.",
+            "longDescription": "IndieGame Expo 2024, happening on February 9, 2024, is a tribute to indie game developers and their creative spirit. Immerse yourself in the world of unique indie titles, attend enlightening developer panels, and show your support for the indie gaming community. Discover hidden gems, interact with passionate creators, and be part of the thriving indie gaming ecosystem. This event is a testament to the innovation and diversity of indie games.",
+            "price": 25.00,
+            "image": "https://i.ibb.co/6tQGM5X/7169-ZDid-Fc-L-SY425.jpg"
+        },
+        {
+            "id": 5,
+            "name": "FantasyCon 2024",
+            "game": "Various Fantasy Games",
+            "date": "2024-02-30",
+            "description": "FantasyCon 2024 is a magical journey into the world of fantasy gaming. Experience LARPing, tabletop RPGs, and immersive fantasy realms.",
+            "longDescription": "Step into the realm of fantasy gaming at FantasyCon 2024, even if it's on the mythical date of February 30, 2024. Embark on a magical journey filled with LARPing, tabletop RPGs, and immersive fantasy realms. Unleash your inner hero or adventurer, explore enchanted landscapes, and forge epic tales in a world where imagination knows no bounds. FantasyCon 2024 promises an unforgettable adventure for fantasy enthusiasts.",
+            "price": 50.00,
+            "image": "https://i.ibb.co/cLNRDhJ/ff16-br-1667233202495.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Mobile Gaming Clash",
+            "game": "Various Mobile Games",
+            "date": "2024-02-15",
+            "description": "Compete in mobile gaming tournaments featuring popular titles like PUBG Mobile, Call of Duty: Mobile, and Clash Royale.",
+            "longDescription": "On February 15, 2024, the Mobile Gaming Clash brings mobile gamers together for intense tournaments featuring popular titles like PUBG Mobile, Call of Duty: Mobile, and Clash Royale. Show off your skills, compete against fellow mobile gamers, and prove your prowess in the fast-paced world of mobile gaming. It's time to claim victory on the small screen!",
+            "price": 20.00,
+            "image": "https://i.ibb.co/ZgsnhhD/Most-Popular-Mobile-Games-You-Must-Play-In-2020.jpg"
+        }
+    ],
+    "team": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "img": "https://i.ibb.co/whd5SGT/member1.png",
+            "expertise": "Esports and Competitive Gaming"
+        },
+        {
+            "id": 2,
+            "name": "Alice Smith",
+            "img": "https://i.ibb.co/sVrn5J8/member2.png",
+            "expertise": "VR Gaming and Technology"
+        },
+        {
+            "id": 3,
+            "name": "Mike Johnson",
+            "img": "https://i.ibb.co/mSmvcvR/member3.png",
+            "expertise": "Indie Game Development"
+        },
+        {
+            "id": 4,
+            "name": "Emily Davis",
+            "img": "https://i.ibb.co/bHBhZtN/member4.png",
+            "expertise": "Cosplay and Costume Design"
+        }
+    ]
+    
+    
+}

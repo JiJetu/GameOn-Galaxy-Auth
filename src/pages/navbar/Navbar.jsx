@@ -18,8 +18,14 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
-        <li><NavLink to="/Profile">Profile</NavLink></li>
+
+        {
+            user && <>
+                <li><NavLink to="/about">About</NavLink></li>
+                <li><NavLink to="/contact">Contact Us</NavLink></li>
+            </>
+
+        }
     </>
 
     return (
@@ -45,7 +51,7 @@ const Navbar = () => {
                     {
                         user ?
                             <>
-                                <label tabIndex={0} className="btn btn-ghost btn-circle avatar mr-3">
+                                <label tabIndex={0} className="btn btn-ghost hidden md:inline-block btn-circle avatar mr-3">
                                     <div className="w-10 rounded-full">
                                         <img src={user.photoURL} />
                                     </div>
@@ -54,7 +60,7 @@ const Navbar = () => {
                             </>
 
                             : <>
-                                <label tabIndex={0} className="btn btn-ghost btn-circle avatar mr-3">
+                                <label tabIndex={0} className="btn btn-ghost btn-circle hidden md:inline-block  avatar mr-3">
                                     <div className="w-10 rounded-full">
                                         <img src={userDefaultPicture} />
                                     </div>

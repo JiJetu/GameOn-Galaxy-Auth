@@ -11,7 +11,7 @@ const ServiceDetails = () => {
     const {id} = useParams()
 
     useEffect(() => {
-        const findCard = services?.find(service => service.id == id)
+        const findCard = services.data?.find(service => service.id == id)
 
         setSingleDetail(findCard);
     },[id, services])

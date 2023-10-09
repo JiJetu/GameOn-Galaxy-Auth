@@ -9,11 +9,16 @@ export const AuthContext = createContext(null);
 const googleProvider = new GoogleAuthProvider();
 
 const AuthProvider = ({children}) => {
-    const [user, setUser] = useState(null);
+    const [user, setUser] = useState({
+        photoURL: "",
+        email: "",
+        password: ""
+    });
     const [loading, setLoading] = useState(true);
 
-    const createUser = (email, password) =>{
+    const createUser = (photo, email, password) =>{
         setLoading(true);
+        setUser.photoURL = photo;
         return createUserWithEmailAndPassword(auth, email, password)
     }
 

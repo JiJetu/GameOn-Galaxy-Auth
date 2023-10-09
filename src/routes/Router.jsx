@@ -5,13 +5,16 @@ import LogIn from "../auth/login/LogIn";
 import Register from "../auth/register/Register";
 import ServiceDetails from "../pages/home/services/serviceDetails/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
-import Profile from "../pages/profile/Profile";
 import About from "../pages/about/About";
+import Contact from "../pages/contact/Contact";
+import ErrorPage from "../error/ErrorPage";
+
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',
@@ -19,8 +22,8 @@ const router = createBrowserRouter([
                 loader: () => fetch('/data.json')
             },
             {
-                path: '/profile',
-                element: <Profile></Profile>,
+                path: '/contact',
+                element: <Contact></Contact>,
             },
             {
                 path: '/about',
