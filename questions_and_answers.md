@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>The code initializes an object named info with a property named favoriteFood set to the first element of the food array, which is pizza. Then, it assigns the string noodles to info.favoriteFood. This change does not affect the food array, so when you log food, it remains unchanged and prints ['🍕', '🍫', '🥑', '🍔'].</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i> The sayHi function expects an argument name but when we call sayHi() without providing any argument. It results in name being undefined. So, the function returns "Hi there, undefined" as the output.</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>The forEach loop iterates through the nums array elements. The condition if (num) checks if num is truthy. Since there are three truthy values (1, 2, and 3) in the nums array, the count variable is incremented three times, resulting in a final value of 3, which is logged to the console.</i>
 
 </p>
 </details>
