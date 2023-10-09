@@ -1,8 +1,11 @@
-# React + Vite
+# 5 Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+- User can Easily access to through mail.
+- They can also login or register manually. 
+- They can see the Our Events.
+- They can contract us through contract  router
+- Our them member are displayed in home router
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+- repo-link: 
