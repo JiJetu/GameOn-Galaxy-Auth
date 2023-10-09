@@ -2,7 +2,7 @@ const TeamMember = ({teamMember}) => {
     const {name, img, expertise} = teamMember;
     console.log(teamMember, img);
     return (
-        <div>
+        <div data-aos="flip-left">
             <div className="card bg-transparent">
                 <figure className="px-10 pt-10">
                     <img src={img} alt="" />

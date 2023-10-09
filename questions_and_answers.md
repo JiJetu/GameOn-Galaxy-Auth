@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>A ReferenceError occurs because the variable greetign is incorrectly assigned an empty object while the variable greeting is declared but not used causing a mismatch in variable names.</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>"The code will execute without errors, but the result will be the string '12' because JavaScript performs type coercion and converts the number 1 to a string before concatenating it with '2'</i>
 
 </p>
 </details>

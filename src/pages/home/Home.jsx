@@ -6,9 +6,16 @@ import Services from "./services/Services";
 import Event from "./event/Event";
 import Team from "./team/Team";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 const Home = () => {
     const services = useLoaderData();
 
+    useEffect(() => {
+        AOS.init();
+      }, [])
 
     return (
         <div>

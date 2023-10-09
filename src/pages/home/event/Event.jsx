@@ -16,8 +16,8 @@ const Event = () => {
 
     return (
         <div>
-            <h2 className="text-5xl font-bold text-center my-4 md:my-9">Our <span className="text-yellow-400">Next Event</span> On</h2>
-            <div style={{ height: '500px', width: '100%' }}>
+            <h2 data-aos="fade-up-left" className="text-5xl font-bold text-center my-4 md:my-9">Our <span className="text-yellow-400">Next Event</span> On</h2>
+            <div data-aos="fade-up-right" style={{ height: '500px', width: '100%' }}>
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: googleAPIKey }}
                     defaultCenter={defaultProps.center}
